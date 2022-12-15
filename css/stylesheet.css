@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(129, 164, 164);
+    
+}
+
+li {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {
+    color: maroon;
+}
+a:hover {text-decoration: underline;}
+a:visited {color: blue;}
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal;
+}
+.justify {text-align: justify;}
+.homebg {background-image: url("../images/oceanbackground.jpg.webp");}
+
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.common{
+    font-style: oblique;
+    font-weight: 400
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+}
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 40;
+}
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+}
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+}
+.footer {
+    bottom: 5px;
+    left: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: #9999999;
+    text-align: center;
+    padding-top: 15px;
+}
